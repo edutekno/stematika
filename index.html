@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>STEMatika: Sains Teknologi Rekayasa Matematika</title>
+    <meta name="author" content="Sains Teknologi Rekayasa Matematika">
+    <meta name="description" content="Sains Teknologi Rekayasa
+      Matematika">
+    <meta name="keywords" content="STEM, Sains, Teknologi, Rekayasa,
+      Matematika">
+	  	  <meta property="og:title" content="STEMATIKA:Segala hal tentang pembelajaran berbasis STEM" />
+	  <meta property="og:description" content="Pembelajaran berbasis sains, teknologi, rekayasa, matematika" />
+	  <link rel="image_src" href="https://source.unsplash.com/random/200x200/?computer,laptop" />
+    <link href="tailwind.min.css" rel="stylesheet">
+    <!--Replace with your tailwind.css once created-->
+    <script src="jquery.min.js"></script>
+    <script> 
+    $(function(){
+      $("#includedContent").load("header.html"); 
+    });
+    </script>
+    <script> 
+    $(function(){
+      $("#includedContent2").load("content.html"); 
+    });
+    </script>
+    <script> 
+    $(function(){
+      $("#includedContent3").load("footer.html"); 
+    });
+    </script>
+    <script>
+  $(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+      var file = 'views/' + $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
+</script>
+  </head>
+  <body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <div id="includedContent"> </div>
+    <div class="container w-full md:max-w-3xl mx-auto pt-20">
+      <div class="w-full px-4 md:px-6 text-xl text-gray-800
+        leading-normal" style="font-family:Georgia,serif;">
+        <!--Title-->
+        <!--Lead Para-->
+        <p class="py-6"> <img alt=""
+            src="https://source.unsplash.com/random/700x400/?computer,laptop"><br>
+         Web ini membahas berbagai isu pembelajaran terkait sains, teknologi, perekayasaan (engineering), matematika dan berbagai hal terkait pemanfaatan teknologi dalam pembelajaran dan pendidikan.
+		 </p>
+        <br>
+        <!--Divider-->
+        <hr class="border-b-2 border-gray-400 mb-8 mx-4">
+        <p><br>
+        </p>
+        <!-- IMAGE LINKS--------------------------------------------------------------------------------------- -->
+        <div class="row">
+          <div class="column"><img alt=""
+              src="https://source.unsplash.com/random/201x200/?computer,laptop"
+              height="200" width="200"><a href="artikel1.html" class="text-base
+              md:text-sm text-teal-500 font-bold no-underline
+              hover:underline">7 Miskonsepsi Pembelajaran Online</a></div>
+          <div class="column"><img alt=""
+              src="https://source.unsplash.com/random/200x200/?computer,laptop"
+              height="200" width="200"><a href="artikel2.html" class="text-base
+              md:text-sm text-teal-500 font-bold no-underline
+              hover:underline">Mengenal AI</a></div>
+          <div class="column"><img alt=""
+              src="https://source.unsplash.com/random/202x200/?engineering"
+              height="200" width="200"><a href="#" class="py-2
+              no-underline hover:underline"><font color="orange">3D Design</font></a></div>
+        </div>
+        <p class="py-6"> </p>
+      </div>
+      <hr class="border-b-2 border-gray-400 mb-8 mx-4">
+      <!--Subscribe-->
+      <div class="container px-4">
+        <div class="font-sans bg-white rounded-lg shadow-md p-4
+          text-center">
+          <h2 class="font-bold break-normal text-xl md:text-3xl">Berlangganan
+
+            Artikel</h2>
+          <h3 class="font-bold break-normal font-normal text-gray-600
+            text-sm md:text-base">Dapatkan artikel kami langsung di
+            pesan WA Anda!</h3>
+          <div class="w-full text-center pt-4">
+            <form action="http://bit.ly/stematikagroup">
+              <div class="max-w-xl mx-auto p-1 pr-0 flex flex-wrap
+                items-center"> <button type="submit" class="flex-1
+                  mt-4 block md:inline-block appearance-none bg-teal-500
+                  text-white text-base font-semibold tracking-wider
+                  uppercase py-4 rounded shadow hover:bg-teal-400">Join WA!</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- /Subscribe--> </div>
+    <!--/container-->
+    <div id="includedContent3"> </div>
+  </body>
+</html>
